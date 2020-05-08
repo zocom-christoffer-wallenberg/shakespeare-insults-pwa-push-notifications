@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'IM Fell English SC', serif;
+}
+
+body {
+    background-color: #fef6e8;
+}
+
+.heading {
+    text-align: center;
+    color: #660200;
+}
+
+.wrapper {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.play {
+    margin-top: 0;
+    width: 100%;
+    text-align: end;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        margin: 0 1rem 0 1rem;
+    }
+}
