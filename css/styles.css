@@ -35,12 +35,26 @@ body {
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;
+    position: relative;
 }
 
 .play {
     margin-top: 0;
     width: 100%;
     text-align: end;
+}
+
+.shakespeare {
+    position: absolute;
+    bottom: -30px;
+}
+
+.button {
+    margin-bottom: 1rem;
+}
+
+.hide {
+    display: none;
 }
 
 @media only screen and (max-width: 768px) {
